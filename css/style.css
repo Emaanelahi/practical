@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #ce792acc;
+}
+
+
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(74, 72, 72);
+    transition: 0.5s;
+    color: white !important;
+}
+
+a:hover{
+    color: orange !important;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    background-image: url("../images/pexels-mnzoutfits-1598505.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+}
+
+section{
+    background-color: rgb(221, 220, 220);
+}
+
+.m{
+    transition: 0.5s;
+}
+.m:hover{
+    box-shadow: 0 0 8px orange;
+    transform: scale(1.1);
+}
+
+g{
+    position: relative;
+}
+
+.card-body{
+    border-radius: 10px;
+}
+
+.ts{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    position: absolute;
+    top: 47%;
+}
+
+i{
+    color: orange;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.r{
+    align-items: center;
+    justify-content: center;
+}
+/* .cards{
+    width: 360px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 0 8px #565351
+
+} */
+
+.btng{
+    background-color: orange;
+    transition: 0.5s;
+}
+.btng:hover{
+
+
+    transform: scale(1.1);
+   
+}
+
+.hh{
+    color: white;
+    font-size: 22px;
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+
+.hh:hover{
+    color: orange;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card-body {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+  }
+
+  .card:hover .card-body {
+    max-height: 200px; 
+    opacity: 1;
+  }
