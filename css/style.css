@@ -29,7 +29,7 @@ main{
     background-image: url("../images/pexels-mnzoutfits-1598505.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 710px;
+    height: 670px;
 }
 
 section{
@@ -52,24 +52,19 @@ g{
     border-radius: 10px;
 }
 
-.ts{
-    display: flex;
-    flex-direction: column;
-    color: azure;
-    position: absolute;
-    top: 47%;
-}
+
 
 i{
     color: orange;
 }
 
 .btn{
-    width: 150px;
+    width: fit-content;
     height: 45px;
     margin-left: 30px;
     border-radius: 10px;
     text-align: center;
+
 }
 
 
@@ -77,15 +72,7 @@ i{
     align-items: center;
     justify-content: center;
 }
-/* .cards{
-    width: 360px;
-    height: 320px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    transition: 0.5s;
-    box-shadow: 0 0 8px #565351
 
-} */
 
 .btng{
     background-color: orange;
@@ -126,3 +113,36 @@ i{
     max-height: 200px; 
     opacity: 1;
   }
+
+
+
+  nav {
+    background-color: #1F2833; 
+    color: #ffffff;
+}
+nav a {
+    color: #ffffff !important;
+
+        transition: color 0.3s ease;
+    
+}
+nav a:hover {
+    color: #FFC107 !important; 
+}
+
+
+
+
+.hero-wrapper {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),
+                url('../images/hero-bg.jpg') center/cover no-repeat;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts h1, .ts h5, .ts p {
+    color: #fff;
+}
